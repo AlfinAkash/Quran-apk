@@ -29,11 +29,11 @@ const DHIKR = [
   ['hasbunallah', 'Dua', 'Hasbunallah', 'حَسْبُنَا ٱللَّٰهُ وَنِعْمَ ٱلْوَكِيلُ', 'Allah is enough for us, and He is the best protector', 'Words of reliance on Allah (Quran 3:173, Bukhari).', 100],
   ['yunus', 'Dua', 'Dua of Yunus ﷺ', 'لَا إِلَٰهَ إِلَّا أَنتَ سُبْحَانَكَ إِنِّي كُنتُ مِنَ ٱلظَّالِمِينَ', 'There is no god but You, glory be to You; I was among the wrongdoers', 'The prayer of Yunus ﷺ (Quran 21:87). The Prophet ﷺ said Allah answers whoever calls with it (Tirmidhi).', 100],
 ]
-const PREF0 = { name: 'Mariyam Syed', accent: '', scale: 1, radius: 'round', glass: true, pattern: true, motion: true, h24: false, hidden: [] }
+const PREF0 = { name: 'AlfinAkash', accent: '', scale: 1, radius: 'round', glass: true, pattern: true, motion: true, h24: false, hidden: [] }
 const SWATCHES = ['#C9A24B', '#D4AF37', '#E8AA8C', '#F472B6', '#C8AAF0', '#60A5FA', '#5AC8D2', '#2DD4BF', '#86EFAC', '#F0BE3C', '#FB923C', '#F87171']
 const BACKUP_KEYS = ['loc', 'alerts', 'done', 'theme', 'calc', 'prefs', 'tasbih2', 'khatm', 'qada', 'gold', 'lastSurah', 'qsize']
 const rgbOf = (h) => { const n = parseInt(h.slice(1), 16); return `${(n >> 16) & 255} ${(n >> 8) & 255} ${n & 255}` }
-let use24 = false, userName = 'Mariyam Syed'
+let use24 = false, userName = 'AlfinAkash'
 const CUSTOM_ID = 'custom'
 const CATS = ['All', 'After prayer', 'Daily', 'Forgiveness', 'Salawat', 'Dua']
 const GUIDED = ['subhanallah', 'alhamdulillah', 'allahuakbar', 'tahlil']
