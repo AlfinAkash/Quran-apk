@@ -898,7 +898,7 @@ function Picker({ onPick, onClose }) {
           <input autoFocus value={q} onChange={(e) => setQ(e.target.value)} placeholder="Search city or town" className="min-w-0 flex-1 rounded-full border border-gold/40 bg-emerald/30 px-4 py-2 text-ivory placeholder:text-mist" />
           <button className="rounded-full bg-gold px-4 py-2 font-medium text-night">Search</button>
         </form>
-        <div className="mt-3 flex gap-4 text-sm"><button onClick={mine} className="text-gold underline">Use my location</button><button onClick={() => onPick(DEFAULT_LOC)} className="text-gold underline">Reset to Kallattumukku</button></div>
+        <div className="mt-3 flex gap-4 text-sm"><button onClick={mine} className="text-gold underline">Use my location</button><button onClick={() => onPick(DEFAULT_LOC)} className="text-gold underline">Reset to Tirunelveli</button></div>
         <ul className="mt-3 max-h-64 space-y-1 overflow-y-auto">
           {res?.length === 0 && <li className="text-mist">No places found.</li>}
           {res?.map((r) => (
