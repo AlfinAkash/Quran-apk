@@ -1,4 +1,4 @@
-# Mariyam Syed · Islamic Companion
+#  Islamic Companion
 React + Vite + Tailwind, English only. All live data comes from free APIs that need no key:
 AlAdhan (times, Qibla, 99 Names), AlQuran Cloud (Quran text + audio), Open-Meteo (city search).
 
