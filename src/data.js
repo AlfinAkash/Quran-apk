@@ -2,7 +2,8 @@ import { useEffect, useState } from 'react'
 import { BookOpen, CalendarDays, CircleDot, Clock, Coins, Compass, HandHeart, ListChecks, MapPin, Sparkles, Star } from 'lucide-react'
 
 export const APP_VERSION = '3.0.0'
-export const DEFAULT_LOC = { name: 'Kallattumukku, Thiruvananthapuram', lat: 8.48, lng: 76.935 }
+// export const DEFAULT_LOC = { name: 'Kallattumukku, Thiruvananthapuram', lat: 8.48, lng: 76.935 }
+export const DEFAULT_LOC = { name: 'Tirunelveli, Tamil Nadu', lat: 8.7139, lng: 77.7567 }
 
 export const ICONS = { home: Clock, month: CalendarDays, quran: BookOpen, duas: HandHeart, events: Star, mosques: MapPin, ibadah: ListChecks, names: Sparkles, tasbih: CircleDot, qibla: Compass, zakat: Coins }
 export const TABS = [['home', 'Prayer'], ['month', 'Monthly'], ['quran', 'Quran'], ['duas', 'Duas'], ['events', 'Events'], ['mosques', 'Mosques'], ['ibadah', 'Ibadah'], ['names', '99 Names'], ['tasbih', 'Tasbih'], ['qibla', 'Qibla'], ['zakat', 'Zakat']]

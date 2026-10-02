@@ -6,7 +6,8 @@ import { Toaster, toast } from 'sonner'
 import { ChevronLeft, ChevronRight, Sunrise, Sun, CloudSun, Sunset, MoonStar, Download, Upload, Ellipsis, Moon, Bell, BellOff, BookOpen, RotateCcw, Undo2, Vibrate, Volume2, VolumeX, CalendarDays, Check, CircleDot, Clock, Coins, Compass, HandHeart, ListChecks, MapPin, Palette, Sparkles, Star } from 'lucide-react'
 const ICONS = { home: Clock, month: CalendarDays, quran: BookOpen, duas: HandHeart, events: Star, mosques: MapPin, ibadah: ListChecks, names: Sparkles, tasbih: CircleDot, qibla: Compass, zakat: Coins }
 
-const DEFAULT_LOC = { name: 'Kallattumukku, Thiruvananthapuram', lat: 8.48, lng: 76.935 }
+// const DEFAULT_LOC = { name: 'Kallattumukku, Thiruvananthapuram', lat: 8.48, lng: 76.935 }
+const DEFAULT_LOC = { name: 'Tirunelveli, Tamil Nadu', lat: 8.7139, lng: 77.7567 }
 const PRAYERS = ['Fajr', 'Sunrise', 'Dhuhr', 'Asr', 'Maghrib', 'Isha']
 const FIVE = PRAYERS.filter((p) => p !== 'Sunrise')
 const AR = { Fajr: 'الفجر', Sunrise: 'الشروق', Dhuhr: 'الظهر', Asr: 'العصر', Maghrib: 'المغرب', Isha: 'العشاء' }

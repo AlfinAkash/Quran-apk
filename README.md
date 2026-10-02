@@ -1,5 +1,5 @@
 #  Islamic Companion
-React + Vite + Tailwind, English only. All live data comes from free APIs that need no key:
+<!-- React + Vite + Tailwind, English only. All live data comes from free APIs that need no key:
 AlAdhan (times, Qibla, 99 Names), AlQuran Cloud (Quran text + audio), Open-Meteo (city search).
 
     npm install
@@ -27,4 +27,4 @@ Responsive: bottom navigation on phones and tablets, sidebar from 1024px, contai
 Twelve dhikr (SubhanAllah, Alhamdulillah, Allahu Akbar, full Tahlil, La ilaha illallah, SubhanAllahi wa bihamdihi, SubhanAllahil Azim, La hawla, Astaghfirullah, Salawat, Hasbunallah, Dua of Yunus) + a custom dhikr, guided after-prayer 33·33·34 mode, goals, undo, vibration/click toggles, and today / all-time / 7-day stats.
 
 ## Customize (Palette button, top right)
-Name, 12 themes, any accent colour, text size (85-140%), corner style (sharp / soft / round), glass effect, Islamic pattern, animations, 24-hour clock, show or hide any section, 13 calculation methods, and backup / restore of all your data as a JSON file. Defaults live in `PREF0` in `src/App.jsx`.
+Name, 12 themes, any accent colour, text size (85-140%), corner style (sharp / soft / round), glass effect, Islamic pattern, animations, 24-hour clock, show or hide any section, 13 calculation methods, and backup / restore of all your data as a JSON file. Defaults live in `PREF0` in `src/App.jsx`. -->
