@@ -1,0 +1,7 @@
+{
+  "appId": "com.mariyam.dailyprayer",
+  "appName": "Daily Prayer",
+  "webDir": "dist",
+  "backgroundColor": "#0B2E2A",
+  "android": { "allowMixedContent": false }
+}
