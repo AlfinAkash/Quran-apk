@@ -18,7 +18,7 @@ jobs:
       # The Ubuntu runner already includes the Android SDK, so no extra SDK step is needed.
       - run: npm install
       - run: npm run build
-      - run: npx cap add android
+      - run: rm -rf android && npx cap add android
       - run: node scripts/apply-icons.cjs
       - run: npx cap sync android
       - run: chmod +x android/gradlew && cd android && ./gradlew assembleDebug --no-daemon
